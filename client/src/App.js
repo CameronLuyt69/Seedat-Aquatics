@@ -61,19 +61,31 @@ function App() {
         <ul id="slide-out" className="sidenav">
               <div className="header black card-panel blue-text"><h4>Shopping Categories</h4></div>
               <li>
-                <Link to="/category/Phones"><i className="fas fa-mobile-alt"></i>Phones</Link>
+                <Link to="/category/Phones">Filters</Link>
               </li>
               <li>
-                <Link to="/category/Laptops"><i className="fas fa-laptop"></i>Laptops</Link>
+                <Link to="/category/Laptops">Filter Media</Link>
               </li>
               <li>
-                <Link to="/category/Headphones"><i className="fas fa-headphones"></i>Headphones</Link>
+                <Link to="/category/Headphones">Water Maintenance</Link>
               </li>
               <li>
-                <Link to="/category/Keyboard-Sets"><i className="fas fa-keyboard"></i>Keyboard-Sets</Link>
+                <Link to="/category/Keyboard-Sets">Pumps</Link>
               </li>
               <li>
-                <Link to="/category/Consoles"><i className="fas fa-gamepad"></i>Consoles</Link>
+                <Link to="/category/Consoles">Medication</Link>
+              </li>
+              <li>
+                <Link to="/category/Consoles">Food</Link>
+              </li>
+              <li>
+                <Link to="/category/Consoles">Test-Kits</Link>
+              </li>
+              <li>
+                <Link to="/category/Consoles">Lights</Link>
+              </li>
+              <li>
+                <Link to="/category/Consoles">Aquariums</Link>
               </li>
         </ul>
 

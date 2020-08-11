@@ -55,7 +55,7 @@ function SigninScreen(props) {
           New to Seedat Aquatics?
         </li>
         <li>
-          <Link to={redirect === "/" ? "register" : "register?redirect=" + redirect} className="button secondary text-center" >Create your AZ-TECH account</Link>
+          <Link to={redirect === "/" ? "register" : "register?redirect=" + redirect} className="button secondary text-center" >Create your Seedat Aquatics account</Link>
         </li>
       </ul>
     </form>
