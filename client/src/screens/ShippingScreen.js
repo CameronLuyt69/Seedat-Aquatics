@@ -30,25 +30,25 @@ function ShippingScreen(props) {
             <h5>
               Address
             </h5>
-            <input type="text" name="address" id="address" onChange={(e) => setAddress(e.target.value)} />
+            <input type="text" name="address" id="address" onChange={(e) => setAddress(e.target.value)} required />
           </li>
           <li>
             <h5>
               City
             </h5>
-            <input type="text" name="city" id="city" onChange={(e) => setCity(e.target.value)} />
+            <input type="text" name="city" id="city" onChange={(e) => setCity(e.target.value)} required />
           </li>
           <li>
             <h5>
               Postal Code
             </h5>
-            <input type="text" name="postalCode" id="postalCode" onChange={(e) => setPostalCode(e.target.value)} />
+            <input type="text" name="postalCode" id="postalCode" onChange={(e) => setPostalCode(e.target.value)} required />
           </li>
           <li>
             <h5>
               Country
             </h5>
-            <input type="text" name="country" id="country" onChange={(e) => setCountry(e.target.value)} />
+            <input type="text" name="country" id="country" onChange={(e) => setCountry(e.target.value)} required />
           </li>
 
           <li>

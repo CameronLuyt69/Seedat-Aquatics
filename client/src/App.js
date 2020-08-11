@@ -85,7 +85,7 @@ function App() {
                 <Link to="/category/Consoles">Lights</Link>
               </li>
               <li>
-                <Link to="/category/Consoles">Aquariums</Link>
+                <Link to="/category/Aquariums">Aquariums</Link>
               </li>
         </ul>
 
