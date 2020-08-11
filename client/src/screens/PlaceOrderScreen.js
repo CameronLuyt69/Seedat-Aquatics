@@ -20,7 +20,6 @@ function PlaceOrderScreen(props) {
   const itemsPrice = cartItems.reduce((a, c) => a + c.price * c.qty, 0);
   const shippingPrice = itemsPrice > 100 ? 0 : 10;
   const totalPrice = itemsPrice + shippingPrice;
-  const totalItems = cartItems.length;
 
   const dispatch = useDispatch();
 
@@ -103,11 +102,7 @@ function PlaceOrderScreen(props) {
             <h3>Order Summary</h3>
           </li>
           <li>
-            <div>Items</div>
-            <div>{totalItems}</div>
-          </li>
-          <li>
-            <div>Order Total</div>
+            <div>Total</div>
             <div>R{totalPrice}</div>
           </li>
         </ul>

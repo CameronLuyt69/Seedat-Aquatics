@@ -459,6 +459,7 @@ tbody > tr:nth-child(odd) {
   border-radius: 0.5rem;
   background-color: #fcfcfc;
   padding: 1rem;
+  height: 25rem;
 }
 .placeorder-action > ul {
   padding: 0;

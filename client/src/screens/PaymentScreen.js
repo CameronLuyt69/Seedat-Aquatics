@@ -31,10 +31,23 @@ function PaymentScreen(props) {
                     className="with-gap"
                     name="paymentMethod"
                     id="paymentMethod"
-                    value="Paypal"
+                    value="Cash"
                     onChange={(e) => setPaymentMethod(e.target.value)}
                    />
-                  <span>Paypal</span>
+                  <span>Cash</span>
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input
+                    type="radio"
+                    className="with-gap"
+                    name="paymentMethod"
+                    id="paymentMethod"
+                    value="Card"
+                    onChange={(e) => setPaymentMethod(e.target.value)}
+                   />
+                  <span>Card</span>
                 </label>
               </div>
             </li>

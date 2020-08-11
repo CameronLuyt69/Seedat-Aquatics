@@ -40,9 +40,6 @@ function OrderScreen(props) {
             <div>
               Payment Method: {order.payment.paymentMethod}
             </div>
-            <div>
-              <div>Paid at: Not Paid</div>
-            </div>
           </div>
 
           <div>
@@ -91,10 +88,6 @@ function OrderScreen(props) {
           <ul>
             <li>
               <h3>Order Summary</h3>
-            </li>
-            <li>
-              <div>Items</div>
-              <div>R{order.itemsPrice}</div>
             </li>
             <li>
               <div>Order Total</div>
